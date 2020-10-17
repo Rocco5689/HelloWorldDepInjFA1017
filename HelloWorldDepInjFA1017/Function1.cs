@@ -14,6 +14,7 @@ namespace HelloWorldDepInjFA1017
             _simpleCustomClass = simpleCustomClass;
         }
 
+        [Disable]
         [FunctionName("Function1")]
         public void Run([TimerTrigger("*/5 * * * * *")]TimerInfo myTimer, ILogger log)
         {

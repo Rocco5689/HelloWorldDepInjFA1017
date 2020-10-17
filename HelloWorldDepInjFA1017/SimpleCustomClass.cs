@@ -4,7 +4,7 @@ namespace HelloWorldDepInjFA1017
 {
     public class SimpleCustomClass : ISimpleCustomClass
     {
-        private int _privateValue;
+        private int _privateValue = 0;
 
         public int SetSimpleCustomClassPrivateValue(string privateValue)
         {
