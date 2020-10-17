@@ -23,7 +23,7 @@ using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 ```
 5. Create Interface for SimpleCustomClass using ISimpleCustomClass with the following
-``` C#
+  ``` C#
 namespace HelloWorldDepInjFA1017
 {
     public interface ISimpleCustomClass
@@ -32,7 +32,7 @@ namespace HelloWorldDepInjFA1017
         string ShowSimpleCustomClassPrivateValue();
     }
 }
-```
+  ```
 6. Derived SimpleCustomClass from ISimpleCustomClass and provided definition
 ``` C#
 namespace HelloWorldDepInjFA1017
