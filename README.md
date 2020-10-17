@@ -18,6 +18,6 @@ Basic outline from a template V3 Function App (Visual Studio 2019)
 1. Add Startup.cs File to Project
    * ![Add Startup.cs](https://github.com/Rocco5689/HelloWorldDepInjFA1017/blob/DepInjClassInstCheck1017/AddStartup.gif) </br></br>
 
-1. Add using statements to Startup.cs
+1. Add using statements to Startup.cs  
   using Microsoft.Azure.Functions.Extensions.DependencyInjection;  
   using Microsoft.Extensions.DependencyInjection;
