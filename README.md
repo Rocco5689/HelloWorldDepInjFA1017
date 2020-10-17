@@ -5,7 +5,7 @@ Azure Function App | Dependency Injection | Hello World Example | Timer and Http
 
 ### Build versions used
 
-Azure Functions Core Tools (3.0.2931 Commit hash: d552c6741a37422684f0efab41d541ebad2b2bd2)
+Azure Functions Core Tools (3.0.2931 Commit hash: d552c6741a37422684f0efab41d541ebad2b2bd2)  
 Function Runtime Version: 3.0.14492.0
 
 ### Steps
