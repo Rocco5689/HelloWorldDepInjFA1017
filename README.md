@@ -13,7 +13,7 @@ Function Runtime Version: 3.0.14492.0
 Basic outline from a template V3 Function App (Visual Studio 2019)
 
 1. Create Function App V3
-   * Timer Function ```(*/5 * * * * *)``` *Trigger Every 5 seconds*  
+   * Timer Function ```(*/5 * * * * *)``` *Trigger Every 5 seconds*
   
 1. Install NuGet Package **Microsoft.Azure.Functions.Extensions** ([Function Startup Prerequisites](https://docs.microsoft.com/bs-latn-ba/azure/azure-functions/functions-dotnet-dependency-injection#prerequisites))    
 1. Add Startup.cs File to Project
