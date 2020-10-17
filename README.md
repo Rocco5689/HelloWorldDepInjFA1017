@@ -24,4 +24,4 @@ using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 ```
 
-1. Create Interface for SimpleCustomClass using ISimpleCustomClass with the following
+5. Create Interface for SimpleCustomClass using ISimpleCustomClass with the following
