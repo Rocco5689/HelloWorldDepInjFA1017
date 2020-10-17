@@ -23,3 +23,5 @@ Basic outline from a template V3 Function App (Visual Studio 2019)
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 ```
+</br></br>
+1. Create Interface for SimpleCustomClass using ISimpleCustomClass with the following
