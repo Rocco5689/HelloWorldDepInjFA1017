@@ -19,13 +19,13 @@ Basic outline from a template V3 Function App (Visual Studio 2019)
    * ![Add Startup.cs](https://github.com/Rocco5689/HelloWorldDepInjFA1017/blob/DepInjClassInstCheck1017/AddStartup.gif)
 
 4. Add using statements to Startup.cs
-```
+``` C#
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 ```
 
 5. Create Interface for SimpleCustomClass using ISimpleCustomClass with the following
-```
+``` C#
 namespace HelloWorldDepInjFA1017
 {
     public interface ISimpleCustomClass
@@ -37,7 +37,7 @@ namespace HelloWorldDepInjFA1017
 ```
 
 6. Derived SimpleCustomClass from ISimpleCustomClass and provided definition
-```
+``` C#
 namespace HelloWorldDepInjFA1017
 {
     public class SimpleCustomClass : ISimpleCustomClass
