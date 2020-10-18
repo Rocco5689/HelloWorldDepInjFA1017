@@ -12,7 +12,7 @@ Function Runtime Version: 3.0.14492.0
 
 Basic outline from a template V3 Function App (Visual Studio 2019)
 
-1. Create Function App V3
+## 1. Create Function App V3
 
    - Timer Function ```(*/5 * * * * *)``` *Trigger Every 5 seconds*
 
