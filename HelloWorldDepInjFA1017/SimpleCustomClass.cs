@@ -1,10 +1,20 @@
-﻿using System;
+﻿using Microsoft.Azure.WebJobs;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Threading.Tasks;
 
 namespace HelloWorldDepInjFA1017
 {
     public class SimpleCustomClass : ISimpleCustomClass
     {
         private int _privateValue;
+        private ILogger _logger;
+
+        public SimpleCustomClass(ILogger<Function1> logger)
+        {
+            _logger = logger;
+            _logger.LogInformation($"The SimpleCustomClass Contructor has been called!!!");
+        }
 
         public int SetSimpleCustomClassPrivateValue(string privateValue)
         {
@@ -23,6 +33,16 @@ namespace HelloWorldDepInjFA1017
         public string ShowSimpleCustomClassPrivateValue()
         {
             return _privateValue.ToString();
+        }
+
+        public void DelayExecSimpleCustomClassLog(string datetime, ExecutionContext context)
+        {
+            Task.Factory.StartNew(() =>
+            {
+                System.Threading.Thread.Sleep(10000);
+                _logger.LogInformation($"This message is from the execution at: {datetime} on execution {context.InvocationId}");
+            });
+            
         }
     }
 }
