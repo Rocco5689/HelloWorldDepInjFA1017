@@ -18,6 +18,8 @@ Basic outline from a template V3 Function App (Visual Studio 2019)
 
 ## 2. Install NuGet Package **Microsoft.Azure.Functions.Extensions** ([Function Startup Prerequisites](https://docs.microsoft.com/bs-latn-ba/azure/azure-functions/functions-dotnet-dependency-injection#prerequisites))
 
+![Add Startup.cs](https://github.com/Rocco5689/HelloWorldDepInjFA1017/blob/DepInjClassInstCheck1017/AddNuGet.jpg)
+
 ## 3. Add Startup.cs File to Project
 ![Add Startup.cs](https://github.com/Rocco5689/HelloWorldDepInjFA1017/blob/DepInjClassInstCheck1017/AddStartup.gif)
 
